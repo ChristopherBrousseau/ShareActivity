@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FunWithIntents"
         tools:targetApi="31">
+        <service
+            android:name=".ShareService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
